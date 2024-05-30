@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACEBOOK 2.0</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .facebook {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            padding: 0px 150px;
+            background-color: rgb(229, 235, 235);
+        }
+
+        /* .facebook a{
+            display: flex;
+            flex-direction: column;
+            } */
+
+        .contaner h1 {
+            font-size: 60px;
+            color: #0866ff;
+        }
+
+        .contaner p {
+            font-size: 35px;
+            height: 100px;
+            width: 500px;
+        }
+
+        .account {
+            box-shadow: 3px 20px 35px gray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            font-size: 40px;
+            height: 450px;
+            width: 340px;
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        .account div {
+            padding: 15px 15px 2px 15px;
+        }
+
+        .account input {
+            font-size: 15px;
+            width: 270px;
+            height: 60px;
+            padding: 15px;
+            border-radius: 4px;
+            border: .5px solid gray;
+        }
+
+
+        .account a {
+            text-decoration: none;
+        }
+
+        .btn button {
+            padding: 3px 12px;
+            background-color: #0866ff;
+            color: azure;
+            width: 270px;
+            height: 60px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .butten button {
+            width: 200px;
+            font-size: 18px;
+            height: 60px;
+            padding: 4px 15px;
+            margin-top: 15px;
+            background-color: #42b72a;
+            border: none;
+            border-radius: 5px;
+            color: azure;
+        }
+
+        .Password a {
+            font-size: 30px;
+            color: #0866ff;
+        }
+
+        .Password a:hover {
+            text-decoration: underline;
+        }
+
+        .btn button:hover {
+            background-color: #0953cc;
+        }
+
+        .butten button:hover {
+            background-color: #20830c;
+        }
+
+        /* .Create a {
+            margin-top: 550px;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <section>
+        <div class="facebook">
+            <dvi class="contaner">
+                <h1>
+                    facebook
+                </h1>
+                <p>
+                    connect with friends and the world around yo on Facebook.
+                </p>
+            </dvi>
+            <dvi class="account">
+                <div>
+                    <input type="text" placeholder="Email or phone number
+                    ">
+                </div>
+                <div>
+                    <input type="text" placeholder="Password">
+                </div>
+                <div class="btn">
+                    <button>log In</button>
+                </div>
+                <div class="Password">
+                    <a href="">forgot password?</a>
+                </div>
+
+                <hr style="width: 250px;">
+
+                <div class="butten">
+                    <button>Create new account</button>
+                </div>
+            </dvi>
+
+            <!-- <div class="Create">
+                <a href="">Create a Page </a>
+                for a celebrity, brand or business.
+            </div> -->
+
+        </div>
+    </section>
+</body>
+
+</html>
